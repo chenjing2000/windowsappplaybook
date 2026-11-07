@@ -1,0 +1,30 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Test and generated artifacts
+artifacts/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# IDE / local workspace
+.vs/
+.idea/
+*.user
+*.suo
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Published output is normally generated; remove this rule if release artifacts
+# are intentionally versioned in this repository.
+dist/
